@@ -56,13 +56,13 @@ todo-task-management-system/
 
 | File |                                         |    Purpose |
 
-| `main.py` |                                Menu and user interaction. It calls functions from the other files. |
-| `task.py` | `Task`                         class with the fields ID, title, description, category, priority, due  date, due time, created date, created time and status. |
-| `task_manager.py` | `TaskManager`          class that keeps the list of tasks and saves after every change. |
-| `storage.py` |                             Loads and saves the JSON file. Creates it if missing and handles empty or damaged files. |
-| `search.py` |                                Functions that return filtered lists of tasks. |
-| `reports.py` |                               Counts tasks and prints the summary. |
-| `validation.py` |                             Checks dates, times, priorities, categories and menu choices, and keeps asking until the input is valid. |
+| `main.py` | Menu and user interaction. It calls functions from theother files. |
+| `task.py` | `Task` class with the fields ID, title, description,category, priority, due  date, due time, created date, created  time and status. |
+| `task_manager.py` | `TaskManager` class that keeps the list of tasks and saves after every change. |
+| `storage.py` | Loads and saves the JSON file. Creates it if missing and handles empty or damaged files. |
+| `search.py` | Functions that return filtered lists of tasks. |
+| `reports.py` |Counts tasks and prints the summary. |
+| `validation.py` |Checks dates, times, priorities, categories and menu choices, and keeps asking until the input is valid. |
 
 
 
